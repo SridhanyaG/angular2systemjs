@@ -1,4 +1,4 @@
-export class Mug {
+export interface IMug {
     mugid:number;
     name:string;
     quantity:string;
