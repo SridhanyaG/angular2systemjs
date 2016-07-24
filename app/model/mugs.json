@@ -1,0 +1,51 @@
+[
+    {
+        "mugid": 1,
+        "name":"candycup",
+        "quantity":"Cup 250ml",
+        "price":100
+    },
+    {
+        "mugid":2,
+        "name":"Rcup",
+        "quantity":"Cup 250ml",
+        "price":120
+    },
+    {
+        "mugid":3,
+        "name":"Rbigcup",
+        "quantity":"cup 380 ml",
+        "price":300
+    },
+    {
+        "mugid":4,
+        "name":"globecup",
+        "quantity":"cup 500ml",
+        "price":500
+    },
+    {
+        "mugid":5,
+        "name":"xoxocup",
+        "quantity":"cup 16oz",
+        "price":90
+    },
+      {
+        "mugid":6,
+        "name":"plaincup",
+        "quantity":"cup 8oz",
+        "price":50
+    },
+      {
+        "mugid":7,
+        "name":"palmcup",
+        "quantity":"cup 16oz",
+        "price":200
+    },
+    {
+        "mugid":8,
+        "name":"tortoisecup",
+        "quantity":"cup 200ml",
+        "price":200
+    }
+
+]
