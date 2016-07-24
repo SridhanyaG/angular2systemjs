@@ -1,6 +1,12 @@
 /node_modules
 /app/*.map
 /app/*.js
-/app/**/*.map
-/app/**/*.js
+/app/checkout/*.map
+/app/checkout/*.js
+/app/home/*.map
+/app/home/*.js
+/app/model/*.map
+/app/model/*.js
+/app/shared/*.map
+/app/shared/*.js
 /typings
