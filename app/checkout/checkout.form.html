@@ -1,0 +1,85 @@
+<form class="form-horizontal" (ngSubmit)="logForm(form.value)" #checkoutForm="ngForm">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Shipping details</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label required" for="firstName">First Name</label>  
+  <div class="col-md-4">
+  <input ngModel id="firstName" name="firstName" type="text" placeholder="First Name" class="form-control input-md">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label required" for="lastName">Last Name</label>  
+  <div class="col-md-4">
+  <input ngModel name="lastName" type="text" placeholder="Last Name" class="form-control input-md">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label required" for="streetAddress">Street Address</label>  
+  <div class="col-md-4">
+  <input ngModel name="streetAddress" type="text" placeholder="Street Address" class="form-control input-md">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label required" for="zipcode">Zipcode</label>  
+  <div class="col-md-4">
+  <input [(ngModel)]="order.zipcode" id="zipcode" name="zipcode" type="number" placeholder="zipcode" class="form-control input-md">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label reqired" for="city">City</label>  
+  <div class="col-md-4">
+  <input ngModel name="city" type="text" placeholder="city" class="form-control input-md">
+   
+  </div>
+</div>
+
+<!-- Select state -->
+<div class="form-group">
+  <label class="col-md-4 control-label required" for="state">State</label>
+  <div class="col-md-4">
+    <select id="state" name="state" class="form-control" ngModel>
+      <option value="1">TamilNadu</option>
+      <option value="2">Karnataka</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label required" for="phone">Phone</label>  
+  <div class="col-md-4">
+  <input ngModel name="phone" type="number" placeholder="placeholder" class="form-control input-md">
+   
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label required" for="textinput">Email Address</label>  
+  <div class="col-md-4">
+  <input ngModel name="email" type="email" placeholder="email" class="form-control input-md">
+   
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <div class="col-md-offset-4 col-md-4">
+    <button id="checkout" name="checkout"  class="btn btn-primary">Checkout</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
